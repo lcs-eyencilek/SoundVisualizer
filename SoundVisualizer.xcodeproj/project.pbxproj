@@ -11,6 +11,7 @@
 		49A19491291C816000F54BB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A19490291C816000F54BB0 /* ContentView.swift */; };
 		49A19493291C816200F54BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A19492291C816200F54BB0 /* Assets.xcassets */; };
 		49A19496291C816200F54BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A19495291C816200F54BB0 /* Preview Assets.xcassets */; };
+		49A1949D291C82B300F54BB0 /* MicrophoneMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A1949C291C82B300F54BB0 /* MicrophoneMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		49A19490291C816000F54BB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49A19492291C816200F54BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A19495291C816200F54BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49A1949C291C82B300F54BB0 /* MicrophoneMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				49A1948E291C816000F54BB0 /* SoundVisualizerApp.swift */,
 				49A19490291C816000F54BB0 /* ContentView.swift */,
+				49A1949C291C82B300F54BB0 /* MicrophoneMonitor.swift */,
 				49A19492291C816200F54BB0 /* Assets.xcassets */,
 				49A19494291C816200F54BB0 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				49A19491291C816000F54BB0 /* ContentView.swift in Sources */,
 				49A1948F291C816000F54BB0 /* SoundVisualizerApp.swift in Sources */,
+				49A1949D291C82B300F54BB0 /* MicrophoneMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 6WTD6KAA94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Do you allow us to use your microphone to enhance user experience?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 6WTD6KAA94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Do you allow us to use your microphone to enhance user experience?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
